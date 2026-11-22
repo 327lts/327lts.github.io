@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohammed El Mouahhidi — Digital Infrastructure Program Director</title>
+<meta name="description" content="Program leader in data center, telecom and critical network delivery. Experience across Hydro-Québec, CGI, IBM, Ericsson and Nortel. PMP, MBA, MIT AI/ML.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#FBFAF8">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Mohammed El Mouahhidi — Digital Infrastructure Program Director">
+<meta property="og:description" content="Data centers, telecom networks and critical systems. PMP, MBA, MIT AI/ML.">
+<style>
+  :root{
+    --bg:#FBFAF8;
+    --ink:#1B1F27;
+    --muted:#5E6572;
+    --accent:#243B5A;
+    --rule:#E4E1DA;
+    --soft:#F2EFE9;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:var(--sans);font-size:17px;line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 28px}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+  a:hover{border-bottom-color:var(--accent)}
+
+  /* top bar */
+  .bar{position:sticky;top:0;z-index:10;background:rgba(251,250,248,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+  .bar .wrap{display:flex;justify-content:space-between;align-items:center;height:52px}
+  .bar .mark{font-family:var(--serif);font-size:15px;letter-spacing:.02em;color:var(--ink)}
+  .bar nav a{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-left:22px;border:0}
+  .bar nav a:hover{color:var(--accent)}
+
+  /* hero */
+  header.hero{padding:88px 0 56px}
+  .eyebrow{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin:0 0 20px}
+  h1{font-family:var(--serif);font-weight:400;font-size:clamp(38px,6vw,56px);line-height:1.08;margin:0 0 14px;letter-spacing:-.01em}
+  .title{font-family:var(--serif);font-size:clamp(20px,2.6vw,24px);color:var(--ink);margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 28px;font-size:16px}
+  .creds{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 32px;padding:0;list-style:none}
+  .creds li{font-size:13px;letter-spacing:.06em;border:1px solid var(--rule);padding:5px 12px;border-radius:999px;background:#fff;color:var(--ink)}
+  .contact{display:flex;flex-wrap:wrap;gap:12px 28px;font-size:15px;color:var(--muted)}
+  .contact a{color:var(--ink);border-bottom:1px solid var(--rule)}
+  .contact a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+
+  /* key figures */
+  .figures{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin:8px 0 0}
+  .fig{padding:26px 18px 24px 0}
+  .fig + .fig{padding-left:22px;border-left:1px solid var(--rule)}
+  .fig b{display:block;font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.1;color:var(--accent)}
+  .fig span{display:block;margin-top:8px;font-size:13.5px;line-height:1.45;color:var(--muted)}
+
+  /* sections */
+  section{padding:56px 0 0}
+  h2{font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 22px;display:flex;align-items:center;gap:16px}
+  h2::after{content:"";flex:1;height:1px;background:var(--rule)}
+  p{margin:0 0 14px}
+  .lead{font-family:var(--serif);font-size:20px;line-height:1.6}
+
+  ul.plain{margin:0;padding:0;list-style:none}
+  ul.plain li{position:relative;padding-left:20px;margin:0 0 12px}
+  ul.plain li::before{content:"";position:absolute;left:0;top:.82em;width:8px;height:1px;background:var(--accent)}
+
+  .comp{display:flex;flex-wrap:wrap;gap:8px 8px;margin:0;padding:0;list-style:none}
+  .comp li{font-size:14.5px;background:var(--soft);padding:6px 13px;border-radius:4px}
+
+  /* experience */
+  .job{display:grid;grid-template-columns:170px 1fr;gap:6px 32px;padding:0 0 34px}
+  .job .when{font-size:14px;color:var(--muted);padding-top:4px;letter-spacing:.01em}
+  .job h3{font-family:var(--serif);font-weight:400;font-size:21px;line-height:1.3;margin:0 0 2px}
+  .job .org{color:var(--muted);font-size:15.5px;margin:0 0 12px}
+  .job ul{margin:0;padding:0;list-style:none}
+  .job li{position:relative;padding-left:20px;margin:0 0 9px;font-size:16px}
+  .job li::before{content:"";position:absolute;left:0;top:.8em;width:8px;height:1px;background:var(--accent)}
+  .role{margin:0 0 22px}
+  .role:last-child{margin-bottom:0}
+  .role h4{font-size:15px;font-weight:600;margin:0 0 2px}
+  .role .rwhen{font-size:13.5px;color:var(--muted);margin:0 0 8px}
+
+  .grid2{display:grid;grid-template-columns:170px 1fr;gap:6px 32px;padding:0 0 18px}
+  .grid2 dt{font-size:14px;color:var(--muted);padding-top:2px}
+  .grid2 dd{margin:0 0 14px}
+  .grid2 dd small{display:block;color:var(--muted);font-size:14px}
+
+  footer{margin-top:72px;border-top:1px solid var(--rule);padding:36px 0 60px;color:var(--muted);font-size:14.5px}
+  footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+  footer a{color:var(--ink)}
+  button.print{font:inherit;font-size:13px;letter-spacing:.06em;color:var(--muted);background:none;border:1px solid var(--rule);padding:6px 14px;border-radius:4px;cursor:pointer}
+  button.print:hover{color:var(--accent);border-color:var(--accent)}
+
+  @media (max-width:720px){
+    body{font-size:16.5px}
+    .wrap{padding:0 22px}
+    .bar nav{display:none}
+    header.hero{padding:56px 0 40px}
+    .figures{grid-template-columns:1fr 1fr}
+    .fig:nth-child(3){padding-left:0;border-left:0}
+    .fig:nth-child(n+3){border-top:1px solid var(--rule)}
+    .job,.grid2{grid-template-columns:1fr;gap:2px}
+    .job .when{padding-top:0;margin-bottom:6px}
+  }
+  @media print{
+    :root{--bg:#fff}
+    .bar,button.print{display:none}
+    body{font-size:11pt;line-height:1.45}
+    header.hero{padding:0 0 18px}
+    section{padding-top:22px;break-inside:avoid-page}
+    .job{break-inside:avoid;padding-bottom:14px}
+    footer{margin-top:24px;padding:16px 0}
+    a{color:var(--ink)}
+  }
+</style>
+</head>
+<body>
+
+<div class="bar" role="banner">
+  <div class="wrap">
+    <span class="mark">M. El Mouahhidi</span>
+    <nav aria-label="Sections">
+      <a href="#summary">Profile</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">Montréal, Canada</p>
+    <h1>Mohammed El Mouahhidi</h1>
+    <p class="title">Digital Infrastructure Program Director</p>
+    <p class="sub">Data centers · Telecom networks · Critical systems</p>
+    <ul class="creds" aria-label="Credentials">
+      <li>PMP</li>
+      <li>MBA, Concordia</li>
+      <li>MIT AI/ML</li>
+      <li>Ingénieur d’État</li>
+    </ul>
+    <div class="contact">
+      <a id="email" href="#contact">elmouahhidi [at] gmail [dot] com</a>
+      <a href="https://www.linkedin.com/in/elmouahhidi" rel="noopener" target="_blank">LinkedIn</a>    </div>
+  </header>
+
+  <div class="figures" role="list" aria-label="Key figures">
+    <div class="fig" role="listitem"><b>300+</b><span>people led in a matrix across five countries at Nortel</span></div>
+    <div class="fig" role="listitem"><b>$200M</b><span>of production transferred to Mexico at Nortel</span></div>
+    <div class="fig" role="listitem"><b>Weekly</b><span>releases instead of 3 per year at Ericsson</span></div>
+    <div class="fig" role="listitem"><b>Minutes</b><span>to deploy infrastructure that once took weeks, through automation</span></div>
+  </div>
+
+  <section id="summary">
+    <h2>Profile</h2>
+    <p class="lead">Program leader in IT, telecom and data-center infrastructure, with North American experience at Hydro-Québec, CGI, IBM, Ericsson and Nortel.</p>
+    <p>Our team delivers new data-center and network capabilities for critical operations, and has used automation to cut deployment time from weeks to minutes. Earlier, I led a matrix of 300+ people across five countries at Nortel, including the transfer of $200M of cost-of-sales production to Mexico.</p>
+  </section>
+
+  <section id="achievements">
+    <h2>Selected achievements</h2>
+    <ul class="plain">
+      <li>Delivered new data centers, from network architecture and team build-up to a stable service in production.</li>
+      <li>Introduced automation that replaced manual configuration, cutting deployment time from weeks to minutes and significantly reducing routine maintenance effort, with better traceability, security and compliance.</li>
+      <li>Moved $200M of cost-of-sales production to Mexico with a new manufacturing partner (other parts outsourced to Poland and China); cut direct production cost by 15%.</li>
+      <li>Led the end-to-end modernization of a major Canadian financial institution’s payment platform within a 36-month transformation, with a team of 10–15 specialists.</li>
+      <li>Led a matrix of 300+ people across five countries; managed about $20M in R&amp;D and $30M in operating budgets.</li>
+    </ul>
+  </section>
+
+  <section id="competencies">
+    <h2>Core competencies</h2>
+    <ul class="comp">
+      <li>Program &amp; portfolio management</li>
+      <li>Data center delivery</li>
+      <li>Cisco ACI, IP/Ethernet, telecom networks</li>
+      <li>Infrastructure automation</li>
+      <li>Budget governance &amp; reporting</li>
+      <li>Multi-site, multicultural leadership</li>
+      <li>Production transfer to low-cost regions</li>
+      <li>Agile &amp; traditional methods</li>
+      <li>ITIL</li>
+      <li>Lean Six Sigma</li>
+      <li>AI / ML</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="when">April 2019 – present</div>
+      <div>
+        <h3>Hydro-Québec</h3>
+        <p class="org">Network Products &amp; Data Centers · Montréal</p>
+
+        <div class="role">
+          <h4>Project Lead (Chef de projets), IT &amp; Telecom</h4>
+          <p class="rwhen">September 2021 – present</p>
+          <ul>
+            <li>Lead a portfolio of concurrent projects introducing new telecom products, mainly for data centers and control rooms, and carry them from the project phase through deployment and adoption until the service is stable.</li>
+            <li>Direct team of fewer than 10 (project managers and project control officers); architects, developers, deployment engineers and technicians, specialists and data-center technicians work on a dotted line.</li>
+            <li>Designed network architecture and delivered real-time networks for critical operations, supporting operational decisions.</li>
+            <li>Introduced automation to replace manual configuration: deployment time cut from weeks to minutes, routine maintenance effort significantly reduced, with better traceability, security and compliance.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <h4>Project Engineer</h4>
+          <p class="rwhen">April 2019 – September 2021</p>
+          <ul>
+            <li>Translated customer requirements into projects with a defined scope and context, then secured management approval.</li>
+            <li>Led the multidisciplinary team assigned to each approved project.</li>
+            <li>Tracked cost, milestones and burn rate on a regular cycle, resolved issues and mitigated risks.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Nov 2018 – Mar 2019</div>
+      <div>
+        <h3>CGI</h3>
+        <p class="org">Director, Consulting Services</p>
+        <ul>
+          <li>Worked with energy-sector customers to reduce operating costs, introduce new products and resolve major issues.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Mar 2017 – Nov 2018</div>
+      <div>
+        <h3>IBM</h3>
+        <p class="org">Project Director</p>
+        <ul>
+          <li>Led a team of 10–15 specialists from different fields to modernize a major Canadian financial institution’s payment system end to end, replacing legacy infrastructure with modern platforms.</li>
+          <li>Adapted legacy applications to run on the new environments and helped technical staff adopt new ways of working.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Apr 2014 – Dec 2016</div>
+      <div>
+        <h3>Ericsson</h3>
+        <p class="org">Product Development Manager, Customer Service Delivery Platform</p>
+        <ul>
+          <li>Senior lead for software product development teams and for service-integration teams combining products from several suppliers into a delivered service.</li>
+          <li>Built and coached a team of 50; moved a monolithic platform to microservices (Docker, Kubernetes) with DevOps: weekly releases instead of 3 per year; unit-test coverage from 0% to at least 75%.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Aug 2006 – Apr 2014</div>
+      <div>
+        <h3>Nortel</h3>
+        <p class="org">Senior Product and Test Engineering Manager · acquired by Ericsson, 2011</p>
+        <ul>
+          <li>Led 18 direct reports and a matrix of 300+ people across five countries as their work manager; supported a $750M-sales portfolio with finance, HR and IT through an extended organization.</li>
+          <li>Delivered three platform introductions across five product portfolios; hired 80 people, doubling engineering staff.</li>
+          <li>Led the Mexico transfer (Guadalajara control systems cut cost by 30%); automation reduced machine purchases by 30% and set-up time from 2 hours to under 2 minutes.</li>
+          <li>Identified more than $6M in cost reductions; controlled a $5M pre-production budget across 3 contract manufacturers and 7 sites; led a recovery team that cut revenue backschedule by more than $20M.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">1995 – 2006</div>
+      <div>
+        <h3>Earlier career</h3>
+        <p class="org">Nortel · ST Microelectronics</p>
+        <ul>
+          <li><strong>Nortel, Prime Test and Verification Engineer, 1999–2006:</strong> new-product lead time cut by 28 days; Lean Kaizen cut cycle time by 50%.</li>
+          <li><strong>ST Microelectronics, Equipment Engineering Manager, 1995–1999:</strong> set-up time from 26 to 3 minutes, a $3M quarterly cost reduction; test yield from 83% to 96%.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="education">
+    <h2>Education &amp; certifications</h2>
+    <dl class="grid2">
+      <dt>MBA</dt>
+      <dd>Finance &amp; Strategic Management, John Molson School of Business, Concordia University<small>GPA 3.84/4.0 · Beta Gamma Sigma · Dean’s Honour List</small></dd>
+      <dt>Engineering</dt>
+      <dd>Ingénieur d’État (Moroccan engineering degree), École Nationale de l’Industrie Minérale, electromechanical option</dd>
+      <dt>Sciences</dt>
+      <dd>Certificat d’études approfondies, microelectronics and computer science, and Physics degree (electronics), Université Mohammed V</dd>
+      <dt>Certifications</dt>
+      <dd>PMP, Project Management Institute (2013)<br>MIT Professional Education, AI/ML (May 2025)<br>Introduction to Software Product Management<br>Cisco CCNA curriculum (completed)</dd>
+      <dt>Languages</dt>
+      <dd>Arabic (native) · French (fluent) · English (fluent)</dd>
+    </dl>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <strong>Mohammed El Mouahhidi</strong><br>
+        Montréal, Canada ·
+        <a id="email2" href="#contact">elmouahhidi [at] gmail [dot] com</a> ·
+        <a href="https://www.linkedin.com/in/elmouahhidi" rel="noopener" target="_blank">LinkedIn</a>
+      </div>
+      <div><button class="print" type="button" onclick="window.print()">Print / save as PDF</button></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    // Assemble the address at load time so it is not exposed as plain text to basic scrapers.
+    var u = "elmouahhidi", d = "gmail.com", a = u + "@" + d;
+    ["email","email2"].forEach(function(id){
+      var el = document.getElementById(id);
+      if(el){ el.href = "mailto:" + a; el.textContent = a; }
+    });
+  })();
+</script>
+</body>
+</html>
