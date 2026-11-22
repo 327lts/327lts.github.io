@@ -99,7 +99,21 @@
   @media (max-width:720px){
     body{font-size:16.5px}
     .wrap{padding:0 22px}
-    .bar nav{display:none}
+    .bar .wrap{height:48px}
+    .bar .mark{display:none}
+    .bar nav{display:flex;justify-content:space-between;width:100%}
+    .bar nav a{margin-left:0;font-size:12px;letter-spacing:.06em}
+    body{overflow-wrap:anywhere}
+    h1{font-size:clamp(32px,9vw,40px)}
+    .fig{padding:20px 12px 18px 0}
+    .fig + .fig{padding-left:16px}
+    .fig b{font-size:26px}
+    .fig span{font-size:13px}
+    .lead{font-size:18px}
+    .job h3{font-size:19px}
+    .creds li{font-size:12px;padding:4px 10px}
+    .contact{flex-direction:column;gap:8px}
+    section{scroll-margin-top:56px}
     header.hero{padding:56px 0 40px}
     .figures{grid-template-columns:1fr 1fr}
     .fig:nth-child(3){padding-left:0;border-left:0}
